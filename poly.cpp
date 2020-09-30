@@ -1,5 +1,5 @@
 #include<iostream>
-#include<conio.h>
+//#include<conio.h>
 using namespace std;
 struct node
 {
@@ -134,8 +134,9 @@ int main()
 				break;
 			default:
 				cout<<"Invalid choice "<<endl;
+				cout<<" ";
 		}
 	}while(n!=0);
-	getch();
+	//getch();
 	return 0;
 }
